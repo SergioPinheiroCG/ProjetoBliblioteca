@@ -1,0 +1,25 @@
+#Adicionar coluna em uma tabela
+
+/* 
+#ESSAS INSERÇÕES FORAM PARA UMA TABLEA DE BIBLIOTECA
+AlTER TABLE cad_locatario
+ADD COLUMN complement_locat varchar (150);
+ALTER TABLE cad_locatario
+ADD COLUMN email_locat varchar (150);
+
+insert into cad_locatario (cpf_locat,nome_locat,end_locat,num_end_locat,bairro_locat,cid_locat,cep_locat,cel_locat) 
+values ('917.063.944-20','Sérgio Magno Castor Pinheiro','Rua Jovino Sobreira de Carvalho','876','Jardim Paulistano','Campina Grande','58.415-305','(83)9632-6676');
+
+insert into cad_locatario (cpf_locat,nome_locat,end_locat,num_end_locat,bairro_locat,cid_locat,cep_locat,cel_locat) 
+values ('022.099.014-05','Patricia Georgia Oliveira Diniz Pinheiro', 'Jovino Sobreira de Carvalho','876','Jardim Paulistano','Campina Grande','58.400-000','(83)98872-2031');
+
+insert into cad_locatario (cpf_locat,nome_locat,end_locat,num_end_locat,complement_locat,bairro_locat,cid_locat,cep_locat,cel_locat) 
+values ('111.760.704-60','Igor Matheus Castor Diniz Pinheiro', 'Rua Luiz Carlos Prestes','500','Condominio Imperial Prive - Casa 58','Palmeira Imperial','Campina Grande','58.418-136','(83)98856-1668');
+
+select * from (cad_locatario);
+
+UPDATE CONTA SET titular = 'Galego Rico' where nconta = 1;
+update cad_locatario set cel_locat = '(83)98632-6676' where cpf_locat = '917.063.944-20' ; 
+
+update cad_locatario set end_locat = 'Rua Jovino Sobreira de Carvalho' where cpf_locat = '022.099.014-05' ; 
+*/
